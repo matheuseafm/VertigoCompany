@@ -1,3 +1,8 @@
+import entities.Carro;
+import entities.Multa;
+import entities.Proprietario;
+import entities.GeradorPlacas;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -22,7 +27,7 @@ public class VertigoInc{
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(5, 1));
 
-        JLabel welcomeLabel = new JLabel("Bem vindo a Vertigo", SwingConstants.CENTER);
+        JLabel welcomeLabel = new JLabel("Bem-vindo a Vertigo", SwingConstants.CENTER);
         panel.add(welcomeLabel);
 
         JButton novoProprietarioButton = new JButton("Novo proprietário");
